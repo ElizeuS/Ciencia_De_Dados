@@ -1,0 +1,31 @@
+### 1. Atividade Prática
+O teste de memória BBC  consistia de três partes:
+
+Na primeira parte, 12 fotos eram mostradas aos usuários.
+Na segunda parte, outras 12 fotos eram mostradas.
+Na terceira parte, 48 fotos eram mostradas e perguntava-se aos usuários se aquela foto havia sido vista na primeira parte, na segunda ou em nenhuma.
+Após os testes, os usuários recebiam duas pontuações:
+
+Uma "pontuação de reconhecimento", calculada como o número de vezes, em percentagem, que o usuário acertou se viu ou não o rosto, não importando em qual parte do teste
+Uma "pontuação de memória temporal", calculada como o número de rostos, em percentagem, reconhecidos e identificados na parte correta (parte 1 ou parte 2).
+Os usuários eram aconselhados a tirar cinco minutos de pausa entre cada parte do teste.
+
+
+
+Analise o arquivo contendo todos os resultados de testes de memória da BBC. Para todas as variáveis que fazem sentido, calcule o valor da média. Para as demais explique porque calcular a média não faz sentido.
+
+__RESPOSTA__
+
+Não é impossível obterv a mÃ©dia dos valores da coluna __timestemp__, pois eles são valores qualitativos ordinais, aos quais nÃ£o podem ser realizado operaÃ§Ãµes do tipo multipliaÃ§Ã£o e divisÃ£o (necessÃ¡rio para oter o valor da mÃ©dia), porém, é possivel ordeená-los para se obter um valor centrar apartir da mediana, que nesse caso corresponde a (7/18/2013 12:47:42).
+
+Já na segunda coluna, referente ao quantitativo de horas dormidas por dia por pessoa, É possível se obter valores como a média, sendo ela 6,696307625, e sua mediana, a qual é equivalente a 7.
+
+A média dos valores da coluna de __recognition__ é equivalente a (91,00370326), e obtem valor mediano equivalente a (92).
+
+A ultima coluna, referente aos valores de __memóia temporal__, tem como média (77,54898975) e como mediana o valor (80).
+
+**todos os valores foram obtidos apartir do uso das fórmulas existentes na ferramenta EXCEL, na qual foin realizada a atividade**
+
+  
+
+
